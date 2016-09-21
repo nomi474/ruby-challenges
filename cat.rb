@@ -23,7 +23,7 @@ my_cat = Cat.new
 my_cat.name = "Kitty"
 catname = my_cat.name
 
-my_cat.owner = "Nomi"
+my_cat.owner = "Rayhan"
 ownername = my_cat.owner
 
 my_cat.meow = "meeeeoooowww"
@@ -31,7 +31,7 @@ my_cat.meow = "meeeeoooowww"
 puts "#{ownername} has a cat named #{catname}. #{catname} says #{my_cat.meow}"
 
 my_new_cat = Cat.new
-my_new_cat.owner = "Aafiya"
+my_new_cat.owner = "Alisha"
 puts "The new cat's owner is #{my_new_cat.owner}"
 
 Cat.current_count
